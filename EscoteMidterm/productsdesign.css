@@ -1,0 +1,114 @@
+
+html, body {
+    height: 100%;         
+    margin: 0;            
+    padding: 0;           
+    overflow: hidden;     
+  }
+ul {
+    overflow: hidden;
+    padding-bottom: 13px;
+    background-color: #333;
+    padding: 20px 0;           
+    position: sticky;          
+    top: 0;                   
+    margin: 0;                 
+  }
+  
+  li.op {
+    display: block;
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+    cursor: default;
+    color: white;
+  }
+  
+  li.op a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  li.op a:hover {
+    color: rgb(170, 170, 170);
+    cursor: pointer;
+  }
+  
+  li.op a:focus,
+  li.op a:active {
+    outline: none;
+    box-shadow: none;
+  }
+#name{
+    float: left;
+    color:white;
+    padding: 10px;
+    font-size: 20px;
+}
+#name:hover{
+cursor: default;
+}
+#Header{
+    margin-left: 20px;
+}
+footer{
+    overflow: hidden;
+    padding-bottom: 13px;
+    background-color: whitesmoke;
+    padding:0%; 
+    margin: 0%; 
+}
+.footerdesign {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 50px 0; 
+    color: white;
+    text-align: center;
+    z-index: 999;
+  }
+  #productsec {
+    padding: 20px;
+  
+    color: black;
+    margin-bottom: 80px; 
+  }
+#productsec p {
+    font-size: 20px;       
+  }
+
+  #productsec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    margin-bottom: 150px; /* space above the fixed footer */
+  }
+  
+  .product {
+    background: rgb(173, 173, 173);
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .product img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .product p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
